@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jordan SC Personal Portfolio Website</title>
+  <meta name="description" content="Portfolio of Jordan Stevano Christiansen, Computer Science Student at BINUS University and AI Engineer Enthusiast.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <canvas id="stars" aria-hidden="true"></canvas>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="nav">
+    <a href="#home" class="logo">JSC</a>
+    <button class="burger" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+    <nav id="menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ========== HOME ========== -->
+    <section id="home" class="hero">
+      <p class="hello">Hello, I'm Jordan Stevano Christiansen</p>
+      <h1>Architecting Intelligence across the
+        <span class="nowrap">Cosmos
+          <span class="glyph" aria-hidden="true">
+            <svg class="rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+            <svg class="spark" viewBox="0 0 24 24"><path d="M12 1l2.2 8.8L23 12l-8.8 2.2L12 23l-2.2-8.8L1 12l8.8-2.2z"/></svg>
+          </span>
+        </span>
+      </h1>
+      <p class="sub">Computer Science Student at BINUS University &amp; AI Engineer Enthusiast.</p>
+      <div class="btns">
+        <a class="btn primary" href="https://github.com/JordanSC10" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/jordan-stevano-christiansen/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="btn" href="https://wa.me/6287888011366" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="reveal">
+      <h2>About Me</h2>
+      <p class="lead">
+        Hello, I’m Jordan, a Computer Science student at BINUS University with a strong passion for IT and programming, particularly in Artificial Intelligence and Data Analytics. I have been actively involved in both academic and non-academic activities, including contributing to S-Class Gen 2 through the SIGMA Club in Product Development and serving as an Academic Mentor, where I strengthened both my technical and leadership capabilities. Beyond academics, I have taken on roles as a Freshmen Leader, Freshmen Partner, and part of PO BINUS Activist, experiences that have sharpened my teamwork, communication, and adaptability in dynamic environments. Currently specializing in Intelligent Systems (AI), I am eager to further develop my technical expertise and professional skills while seeking opportunities to apply my knowledge, continuously grow, and contribute meaningfully to a collaborative team.
+      </p>
+
+      <div class="grid3">
+        <div class="card">
+          <h3>Programming &amp; Tools</h3>
+          <ul class="tags">
+            <li>Python</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Coursework</h3>
+          <ul class="tags">
+            <li>Algorithm and Programming</li>
+            <li>Algorithm Design and Analysis</li>
+            <li>Artificial Intelligence</li>
+            <li>Computer Vision</li>
+            <li>Data Structures</li>
+            <li>Database Technology</li>
+            <li>Machine Learning</li>
+            <li>Natural Language Processing</li>
+            <li>Software Engineering</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Soft Skills</h3>
+          <ul class="tags">
+            <li>Adaptability</li>
+            <li>Communication</li>
+            <li>Discipline</li>
+            <li>Leadership</li>
+            <li>Problem-Solving</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCE ========== -->
+    <section id="experience" class="reveal">
+      <h2>Experience</h2>
+      <div class="timeline">
+
+        <article class="card">
+          <h3>Academic Mentor</h3>
+          <p class="meta">SASC BINUS | Sep 2025 – Present</p>
+          <p>Engineered structured peer-mentoring frameworks for 19 mentees across 3 consecutive semesters, guiding them through complex computer science coursework via personalized problem-solving sessions to boost average academic performance and test scores by <strong class="metric">up to 78%</strong> while maintaining a cumulative GPA <strong class="metric">&gt;=3.50</strong> and securing tuition fee reductions equivalent to <strong class="metric">48 credits</strong> (16 credits per semester).</p>
+        </article>
+
+        <article class="card">
+          <h3>Activist of Prayer and Observance Division</h3>
+          <p class="meta">PO BINUS | Feb 2025 – Present</p>
+          <p>Orchestrated spiritual support systems and weekly prayer meetings for a 50-member committee, establishing a peer prayer-partner network that boosted team retention by <strong class="metric">30%</strong> and significantly increased overall member engagement scores. Directed cross-functional event operations as Person in Charge (PIC) for Follow-Up, Usher, and Prayer Fellowship teams across multiple PO events, coordinating workflows to ensure seamless execution and achieving an estimated <strong class="metric">90%</strong> overall event success and satisfaction.</p>
+        </article>
+
+        <article class="card">
+          <h3>Freshmen Chaperone</h3>
+          <p class="meta">BINUS University | Jul 2025 – Jul 2026</p>
+          <p>Directed and facilitated transition programs for incoming university freshmen as a Freshmen Leader and Partner, delivering academic guidance and introducing institutional core values. Collaborated with 8 chaperones to design orientation programs for 120 freshmen, delivering academic guidance and driving a <strong class="metric">95%</strong> participation rate to foster a supportive campus ecosystem.</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========== CERTIFICATES ========== -->
+    <section id="certificates" class="reveal">
+      <h2>Certificates</h2>
+      <div class="grid3">
+
+        <article class="card cert">
+          <img src="Microsoft Azure Certificate.png" alt="Microsoft Certified: Azure AI Fundamentals certificate" loading="lazy">
+          <h3>Microsoft Certified: Azure AI Fundamentals</h3>
+          <p class="meta">Microsoft | Issued Mar 2026</p>
+        </article>
+
+        <article class="card cert">
+          <img src="IBM Certificate.png" alt="IBM Web Development Fundamentals certificate" loading="lazy">
+          <h3>Web Development Fundamentals</h3>
+          <p class="meta">IBM | Issued Jul 2026</p>
+        </article>
+
+        <article class="card cert note">
+          <h3>And there are many more certificates to come.</h3>
+          <p class="meta">You can see even more on LinkedIn :)</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <section id="projects" class="reveal">
+      <h2>Projects</h2>
+      <div class="grid3">
+
+        <article class="card proj">
+          <img src="cryPIto.png" alt="cryPIto screenshot" loading="lazy">
+          <h3>cryPIto</h3>
+          <p class="meta">Mar 2025 – Jun 2025</p>
+          <p>cryPIto is a concept and front-end prototype for a premium cryptocurrency trading platform, designed in Figma and coded with HTML5, CSS, and JavaScript as a final lab project for the Human and Computer Interaction (HCI) course. It includes Home, Cryptocurrencies, Learn, Benefits, and Register pages in a responsive layout, emphasizing clear information hierarchy, intuitive navigation, and a trustworthy, luxury trading experience.</p>
+          <a class="btn" href="https://github.com/JordanSC10/Final-Project-LAB-HCI" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
+
+        <article class="card proj">
+          <img src="NutrImprove.png" alt="NutrImprove screenshot" loading="lazy">
+          <h3>NutrImprove</h3>
+          <p class="meta">Sep 2025 – Dec 2025</p>
+          <p>NutrImprove is an AI-based website created as a final project for the Artificial Intelligence (AI) course. It uses a Convolutional Neural Network (CNN) model that was designed, trained, and implemented from scratch to analyze images to detect malnutrition and predict stunting, providing recommendations based on the child's condition.</p>
+          <a class="btn" href="https://github.com/JordanSC10/AOL-Artificial-Intelligence-Kelompok-7-LB01" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
+
+        <article class="card proj">
+          <img src="NutriCheck.png" alt="NutriCheck screenshot" loading="lazy">
+          <h3>NutriCheck</h3>
+          <p class="meta">Feb 2026 – Jun 2026</p>
+          <p>NutriCheck is a Machine Learning based web application developed as a final project for the Machine Learning course. It integrates machine learning models to classify food as Healthy or Unhealthy based on nutritional features (calories, protein, fat, carbs, fiber, sugar). Incorporating personal info like height and weight to calculate BMI and daily calorie requirements, the best model (Random Forest Classifier) achieved over 99% accuracy, precision, recall, and F1 score.</p>
+          <a class="btn" href="https://github.com/berubob/Machine-Learning-Project-Binus" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
+
+        <article class="card proj">
+          <img src="GearShare.png" alt="GearShare screenshot" loading="lazy">
+          <h3>GearShare</h3>
+          <p class="meta">Feb 2026 – Jun 2026</p>
+          <p>GearShare is a full stack web application developed as a final project for the Software Engineering course, connecting sports equipment owners with renters. Built using React.js, Node.js, Express.js, and MongoDB, featuring location-based search, booking management, verification, real-time chat, and a review system.</p>
+          <a class="btn" href="https://github.com/JordanSC10/AOL-Software-Engineering-Kelompok-7-LD01" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
+
+        <article class="card proj">
+          <img src="calorIQ.png" alt="CalorIQ screenshot" loading="lazy">
+          <h3>CalorIQ</h3>
+          <p class="meta">Feb 2026 – Jun 2026</p>
+          <p>CalorIQ is an NLP-based web application developed as a final project for the Natural Language Processing course. It combines Sentence BERT semantic search, rule-based entity extraction, nutritional filtering, and an LLM to deliver personalized recipe recommendations based on user BMI, BMR, and daily calorie targets, achieving an average Composite Score of 0.6822 and NDCG@5 of 1.0000.</p>
+          <a class="btn" href="https://github.com/ldkudrcrkz-droid/NLP-CalorIQ-" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
+
+        <article class="card proj">
+          <img src="Asphalt Intelligence.png" alt="Asphalt Intelligence screenshot" loading="lazy">
+          <h3>Asphalt Intelligence</h3>
+          <p class="meta">Feb 2026 – Jun 2026</p>
+          <p>Asphalt Intelligence is a Deep Learning based web application developed as a final project for the Computer Vision course. It utilizes a YOLOv8 object detection model to automatically detect potholes from road images, calculating the Road Health Index (RHI) and Maintenance Priority Score (MPS) to support predictive road maintenance (achieving 77.75% mAP50).</p>
+          <a class="btn" href="https://github.com/berubob/Computer-Vision-Project-Binus" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="reveal">
+      <h2>Contact Me</h2>
+      <p class="lead">Open to collaborations, internships, and conversations about AI.</p>
+      <div class="btns">
+        <a class="btn primary" href="https://wa.me/6287888011366" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <a class="btn" href="https://github.com/JordanSC10" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/jordan-stevano-christiansen/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a class="btn" href="mailto:jordan.stevano88@gmail.com">Email</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>© <span id="year"></span> JSC</footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
